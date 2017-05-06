@@ -77,10 +77,10 @@ if (cluster.isMaster) {
                 console.log('DDB Error: ' + err);
             } else {
                 sns.publish({
-                    'Message': 'Name: ' + req.body.name + "\r\nEmail: " + req.body.email 
-                                        + "\r\nPreviewAccess: " + req.body.previewAccess 
-                                        + "\r\nTheme: " + req.body.theme,
-                    'Subject': 'New user sign up!!!',
+                    'Message': 'Nome: ' + req.body.name + "\r\nEmail: " + req.body.email 
+                                        + "\r\nPremium: " + req.body.previewAccess 
+                                        + "\r\nTema: " + req.body.theme,
+                    'Subject': 'Novo usuário inscrito!!!',
                     'TopicArn': snsTopic
                 }, function(err, data) {
                     if (err) {
