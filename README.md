@@ -1,4 +1,4 @@
-# AWS Elastic Beanstalk Express Sample App
+# AWS Elastic Beanstalk - Exemplo de contato 
 Esta aplicação de exemplo utiliza o [Express](https://expressjs.com/) framework e [Bootstrap](http://getbootstrap.com/) para construir uma forma simples e escalável cliente de inscrição que é implantado no [AWS Elastic Beanstalk](http://aws.amazon.com/elasticbeanstalk/). A aplicação armazena dados em [Amazon DynamoDB](http://aws.amazon.com/dynamodb/) e publica as notificações à [Amazon Simple Notification Service (SNS)](http://aws.amazon.com/sns/) quando um cliente preenche o formulário, neste momento é enviada uma mensagem para a fila SNS que envia o email para o subscriber default.
 
 ## Features
@@ -15,4 +15,4 @@ Temas instalados incluem:
 * [slate](http://bootswatch.com/slate)
 * [united](http://bootswatch.com/united)
 
-para ver o [Site](https://www.devhernand.com/) 
+para ver o [Site](http://www.devhernand.com/) 
