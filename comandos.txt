@@ -9,7 +9,7 @@ java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
 echo "# contatos_node" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
+git commit -am "first commit"
 git remote add origin https://github.com/hernandazevedo/contatos_node.git
 git push -u origin master
 …or push an existing repository from the command line
